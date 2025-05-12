@@ -4,7 +4,7 @@ let prodect = [
     name: "Waffle",
     price: 650,
     dis: "Waffle with Berries",
-    imgsrc: "/assets/images/image-waffle-desktop.jpg",
+    imgsrc: "./assets/images/image-waffle-desktop.jpg",
   },
   {
     id: "p2",
