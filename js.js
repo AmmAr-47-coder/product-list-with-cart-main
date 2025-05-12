@@ -68,7 +68,7 @@ let h = "";
 prodect.forEach((i) => {
   h += `<div class="prod">
           <div class="img">
-            <img src="${i.imgsrc}" alt="" />
+            <img src="${i.imgsrc}" alt="" loading="lazy"/>
           </div>
           <div class="btn">
             <button class="Add" id='${i.id}'>
@@ -76,11 +76,11 @@ prodect.forEach((i) => {
               card
             </button>
             <div class="btnn">
-              <button style="background-image: url(/assets/images/icon-decrement-quantity.svg)"onclick="xxx('${
+              <button style="background-image: url(./assets/images/icon-decrement-quantity.svg)"onclick="xxx('${
                 i.id
               }')"></button>
               <h3 class='js-${i.id}'>1</h3>
-              <button style="background-image: url(/assets/images/icon-increment-quantity.svg)"onclick="xx('${
+              <button style="background-image: url(./assets/images/icon-increment-quantity.svg)"onclick="xx('${
                 i.id
               }')"></button>
             </div>
